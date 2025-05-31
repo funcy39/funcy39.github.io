@@ -1,0 +1,72 @@
+li a {
+    color: green;
+    text-decoration: none;    
+}
+
+li a:link {
+    color: #49f13a;
+}
+
+li a:visited {
+    color:#11553e;
+}
+
+li a:focus {
+    background-color: #f2ff43;
+    text-decoration: dotted underline;
+}
+
+li a:hover {
+    color: #40f040;
+}
+
+header {
+    padding: 1px;
+    background-color: aliceblue;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    display: flex;
+}
+
+nav a { 
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    flex: auto;
+}
+
+nav a:focus {
+    background-color: gray;
+    border-bottom: solid blue;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+nav a:active {
+    border-bottom: solid blue;
+}
+
+body {
+    background: white url("images/background.png") no-repeat;
+}
+
+main {
+    display: flex;
+}
+
+div.latest-question-list {
+    flex: auto;
+}
+
+footer {
+    text-align: center;
+}

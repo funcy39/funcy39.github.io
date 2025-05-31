@@ -1,0 +1,58 @@
+/*Header style*/
+header {
+    padding: 1px;
+    background-color: pink;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+/*Topnav links style*/
+nav {
+    background-color: #333;
+    display: flex;
+}
+
+nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    flex: auto;
+}
+
+nav a:focus {
+    background-color: gray;
+    border-bottom: solid blue;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+nav a:active {
+    border-bottom: solid blue;
+}
+
+/*Background image of body*/
+body {
+    background: white url("images/background.png") no-repeat;
+}
+
+body img {
+    width: 200px;
+}
+
+/*Main content style*/
+main {
+    display: flex;
+}
+
+div.latest-picture-list {
+    flex: auto;
+}
+
+footer {
+    text-align: center;
+}
